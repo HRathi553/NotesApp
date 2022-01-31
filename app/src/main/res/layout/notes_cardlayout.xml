@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110sp">
+
+        <TextView
+            android:id="@+id/notesTitle"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginBottom="8sp"/>
+
+        <TextView
+            android:id="@+id/notesDescription"
+            android:text="This is the description of the respective note "
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notesTitle"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
